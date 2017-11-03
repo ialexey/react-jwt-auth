@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "es6",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "jsx": "react",
+    "target": "es5",
+    "strictNullChecks": true,
+    "baseUrl": "./app/javascript",
+    "types": [
+      "@types/node",
+      "@types/react",
+      "@types/react-dom"
+    ],
+    "paths": {}
+  },
+  "exclude": [
+    "node_modules",
+    "public",
+    "tmp",
+    "vendor/bundle"
+  ],
+  "compileOnSave": false
+}
