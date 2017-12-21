@@ -1,5 +1,5 @@
 # react-login
-React login front-end
+React and Redux JWT Authentication sample
 
 ### Setup
 - Make sure you've installed Node.js 8.6.0
